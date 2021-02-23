@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>	
+		<title>SIGN IN</title>
+		<link rel="stylesheet" href="emplo.css">
+</head>
+<body>
+<div class="signin-box">
+	<div class="form"> 
+			<form method="post" action="signin.php" >
+		<h1>SIGN IN</h1>
+				NAME:    
+			<input type="text" placeholder="name" name="user" required>
+			</input><br>
+				PHONENUMBER:
+			<input type="tel" name ="phno" pattern="[0-9]{10}" required>
+			</input><br>
+				EMAIL:
+			<input type="EMAIL" placeholder="email" name="email" required >
+			</input><br>
+ 				CREATE PASSWORD:
+			<input type="password" placeholder="password" name="pass" required>
+			</input><br>
+				CONFIRM PASSWORD:
+			<input type="password" placeholder="password" name="pass1" required>
+            </input><br>
+<button name="submit">signin</button>
+</form>
+ </div>
+</div>
+</body>
+</html>
